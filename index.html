@@ -1,4 +1,8 @@
-<h3>Hello from redirect</h3>
+<h3>Hello from redirect 1</h3>
+<button>Try me</button>
 <script>
+$("button").click(function(){
+  alert("The paragraph was clicked.");
   window.location.replace("http://localhost:4200"+window.location.search)
+});
 </script>
